@@ -3,7 +3,7 @@ function Boton1 (){
 return (
 <>
 <button className="counter">
-    Contador
+    Contadorxd
 </button>
 
 </>
