@@ -16,22 +16,12 @@ function App() {
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
-        <div>
-          <h1>Inicio</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 2)}
         >
           Count is {count}
         </button>
-
-        <Boton1/>
-          
-        
 
       </section>
 
