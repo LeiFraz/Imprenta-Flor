@@ -3,7 +3,7 @@ function Boton1 (){
 return (
 <>
 <button className="counter">
-    Contadorxd
+    sale un lol
 </button>
 
 </>
