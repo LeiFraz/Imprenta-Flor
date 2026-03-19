@@ -3,10 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-//import Boton1 from './Boton.jsx' 
-import {Provider} from '@/components/ui/provider'
+import { Slider } from '@chakra-ui/react'
 
-function App({Boton1}) {
+function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -24,9 +23,14 @@ function App({Boton1}) {
         >
           El contador es {count}
         </button>
-        <Provider>
-            <Boton1> </Boton1>
-        </Provider>
+        <Slider.Root width="200px" defaultValue={[40]}>
+          <Slider.Control>
+            <Slider.Track>
+              <Slider.Range />
+            </Slider.Track>
+            <Slider.Thumbs />
+          </Slider.Control>
+        </Slider.Root>
 
       </section>
 
