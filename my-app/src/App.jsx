@@ -21,7 +21,7 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 5)}
         >
-          El contador es {count}
+          El CONTADOR es {count}
         </button>
         <Slider.Root width="200px" defaultValue={[40]}>
           <Slider.Control>
