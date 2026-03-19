@@ -3,9 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Boton1 from './Boton.jsx'
+//import Boton1 from './Boton.jsx' 
+import {Provider} from '@/components/ui/provider'
 
-function App() {
+function App({Boton1}) {
   const [count, setCount] = useState(0)
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
+        
         </div>
         <button
           className="counter"
@@ -22,6 +24,9 @@ function App() {
         >
           El contador es {count}
         </button>
+        <Provider>
+            <Boton1> </Boton1>
+        </Provider>
 
       </section>
 
