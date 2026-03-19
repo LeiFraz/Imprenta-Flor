@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Boton1 from './Boton.jsx'
+import { Slider } from '@chakra-ui/react'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,13 +15,22 @@ function App() {
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
+        
         </div>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 5)}
         >
-          El contador es {count}
+          El CONTADOR es {count}
         </button>
+        <Slider.Root width="200px" defaultValue={[40]}>
+          <Slider.Control>
+            <Slider.Track>
+              <Slider.Range />
+            </Slider.Track>
+            <Slider.Thumbs />
+          </Slider.Control>
+        </Slider.Root>
 
       </section>
 
