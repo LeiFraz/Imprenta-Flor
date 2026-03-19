@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import { Slider } from '@chakra-ui/react'
+import SliderTest from './SliderPerso'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,15 +23,7 @@ function App() {
         >
           El CONTADOR es {count}
         </button>
-        <Slider.Root width="200px" defaultValue={[40]}>
-          <Slider.Control>
-            <Slider.Track>
-              <Slider.Range />
-            </Slider.Track>
-            <Slider.Thumbs />
-          </Slider.Control>
-        </Slider.Root>
-
+        <SliderTest />
       </section>
 
       <div className="ticks"></div>
