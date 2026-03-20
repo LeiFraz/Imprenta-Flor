@@ -22,14 +22,12 @@ function App() {
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
+        <p>Count is {count}</p>
         <button
           className="counter"
-          onClick={() => setCount((count) => count + 2)}
-        >
-          Count is {count}
+          onClick={() => setCount((count) => count + 1)}
+        >Botón 1
         </button>
-
-        <Boton1/>
           
         
 
