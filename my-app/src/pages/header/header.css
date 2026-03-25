@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(./HeaderImage.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    width: 100%;
+}

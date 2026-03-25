@@ -1,5 +1,12 @@
 :root {
-  --text: #6b6375;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  /*--text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -12,7 +19,7 @@
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif; *****************
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -27,13 +34,13 @@
 
   @media (max-width: 1024px) {
     font-size: 16px;
-  }
+  }*/
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
-    --text-h: #f3f4f6;
+    --text-h: #f3f4f6; *********
     --bg: #16171d;
     --border: #2e303a;
     --code-bg: #1f2028;
@@ -48,23 +55,7 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
-}
-
-body {
-  margin: 0;
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
+}*/
 
 h1,
 h2 {
@@ -76,7 +67,6 @@ h2 {
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
-  margin: 32px 0;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -93,19 +83,4 @@ h2 {
 }
 p {
   margin: 0;
-}
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
 }
