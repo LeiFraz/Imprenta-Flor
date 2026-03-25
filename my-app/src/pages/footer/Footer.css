@@ -1,0 +1,120 @@
+/* Contenedor principal con más aire */
+.footer-container {
+  background-color: #ffffff;
+  border-top: 1px solid #f0f0f0;
+  padding: 60px 0 30px 0; /* Más espacio arriba */
+  font-family: 'Inter', 'Segoe UI', sans-serif; /* Tipografía más moderna */
+  color: #444;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr; /* La primera columna un poco más ancha */
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Títulos más pesados y limpios */
+.footer-column h3 {
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  position: relative;
+}
+
+/* Lista de enlaces con efecto hover */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-size: 0.95rem;
+}
+
+.footer-column ul li:hover {
+  color: #00d4ff; /* Color de tu marca */
+}
+
+/* Iconos de contacto con el celeste de IMPRENTASHOP */
+.icon-style {
+  color: #00d4ff;
+  margin-right: 12px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+/* Redes sociales más grandes */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons svg {
+  font-size: 1.5rem;
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #00d4ff;
+  transform: translateY(-3px);
+}
+
+/* Copyright con fondo sutil */
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px 0;
+  border-top: 1px solid #f5f5f5;
+  background-color: #fafafa; /* Un gris casi blanco para diferenciar */
+  color: #888;
+  font-size: 0.85rem;
+}
+/* Esto es como definir un uniforme */
+.icono-celeste {
+  color: #00d4ff;   /* El color de IMPRENTASHOP */
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Esto hace que el icono y el texto se queden en la misma línea y centrados */
+.footer-column p {
+  display: flex;
+  align-items: center; /* Los centra verticalmente */
+  gap: 10px;           /* Espacio entre el icono y el texto */
+  justify-content: center; /* Si quieres que todo el bloque esté centrado como en tu imagen */
+  margin-bottom: 10px;
+}
+
+.whatsapp-float {
+  position: fixed;      /* Se queda siempre a la vista */
+  bottom: 20px;         /* Distancia desde abajo */
+  right: 20px;          /* ¡Aquí lo movemos a la derecha! */
+  background-color: #25d366; /* El verde oficial de WhatsApp */
+  color: white;         /* Icono blanco */
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;  /* Lo hace redondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;      /* Tamaño del icono */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3); /* Sombra para que resalte */
+  z-index: 1000;        /* Para que siempre esté por encima de todo */
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background-color: #128c7e; /* Un verde más oscuro al pasar el mouse */
+  transform: scale(1.1);     /* Crece un poquito */
+  transition: 0.3s;
+}
