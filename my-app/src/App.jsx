@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { Slider } from '@chakra-ui/react'
+import Footer from './pages/footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -119,6 +120,12 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+    
+
+       <div className="App">
+         <Footer />
+       </div>
+
     </>
   )
 }
