@@ -1,0 +1,24 @@
+button{
+    padding: 3px;
+    width: 100%;
+    max-width: 200px;
+    min-height: 48px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.celeste{
+    background-color: #13C8EC;
+    color: #FFFFFF;
+    &:hover{
+        background-color: #1c889e;
+    }
+}
+
+.blanco {
+    background-color: #FFFFFF;
+    color: #111827;
+    &:hover{
+        background-color: #b4b4b4;
+    }
+}
