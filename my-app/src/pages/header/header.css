@@ -23,7 +23,7 @@
 }
 
 .botones{
-    
+    display: flex;
 }
 
 @media (max-width: 637px) {
