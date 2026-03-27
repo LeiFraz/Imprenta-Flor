@@ -5,7 +5,7 @@ function Header() {
 
     return(
         <div className='container'>
-            <div className='content-header flexible'>
+            <div className='content-header'>
                 <h1>Dale un toque único a tu estilo</h1>
                 <p>Productos exclusivos en stock y diseños personalizados a medida. <br></br>Calidad premium garantizada.</p>
                 <div className='botones'>

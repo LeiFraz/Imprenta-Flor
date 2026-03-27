@@ -1,0 +1,16 @@
+.centrarPagos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.centrarPagos img{
+    width: 4rem;
+    height: 4rem;
+}
+
+p{
+    display: block;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.mediosPagos{
+    width: 100%;
+    height: 30vh;
+    background-color: #F3F4F6;
+    color: #6B7280;
+    text-align: center;
+    align-content: center;
+}
+
+.centrar{
+    margin-bottom: 5rem;
+}
+
+.centrarFila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
